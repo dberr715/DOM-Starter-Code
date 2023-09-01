@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DOM Starter Kit</title>
+    <title>MadLibs</title>
     <link rel="stylesheet" href="css/index.css" />
 </head>
-
 <body>
-
+    <h1>MadLibs Fun!</h1>
+    <form id="madLibsForm">
+        <input type="text" id="textBlank1" placeholder="adjective" required> 
+        <input type="text" id="textBlank2" placeholder="adjective" required> 
+        <br>
+        <input type="text" id="textBlank3" placeholder="thing" required> 
+        <input type="text" id="textBlank4" placeholder="an environment" required>
+        <br>
+        <button type="submit" id="button1" onclick="makeMadLib()">Make MadLib</button>
+    </form>
+    <p id="theMadLib"></p> <div id="imageArea"></div>
+    <img id="imgArea"></img>
+    <script src="js/index.js"></script>  
 </body>
-<script src="js/index.js"></script>
 </html>

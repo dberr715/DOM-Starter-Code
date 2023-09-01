@@ -14,4 +14,63 @@ body {
     margin: 0;
     min-height: 100vh;
     padding: 0;
+    background-color:rgba(28, 22, 112, 0.924) ;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    color:rgba(255, 255, 255, 0.712);
+    text-align: center;
+    outline: auto;
+
+}
+
+#textBlank1 {
+    font-style: italic;
+    background-color:rgba(249, 249, 249, 0.856);
+    color: darkslategray;
+    border: 2.5px ridge #7d9af3
+}
+
+#textBlank2 {
+    font-style: italic;
+    background-color:rgba(249, 249, 249, 0.856);
+    color: darkslategray;
+    border: 2.5px ridge #7d9af3
+}
+#textBlank3 {
+    font-style: italic;
+    background-color:rgba(247, 249, 150, 0.999);
+    color: darkslategray4;
+    border: 2.5px ridge #7d9af3;
+    margin-top: 5px;
+}
+#textBlank4 {
+    font-style: italic;
+    background-color:rgb(168, 229, 198);
+    color: darkslategray;
+    border: 2.5px ridge #7d9af3;
+    margin-top: 5px;
+}
+#button1 {
+    font-style: oblique;
+    background-color:rgb(0, 0, 0);
+    color:rgb(240, 246, 246);
+    font-size:25px ;
+    flex: auto;
+    margin-top: 10px;
+    border: 2.5px ridge #7d9af3
+    
+}
+#theMadLib {
+    font-style: oblique;
+    background-color:rgba(249, 249, 249, 0.856);
+    color:gray;
+    font-size:25px ;
+    flex: auto;
+    margin-top: 10px;
+    border: 2.5px dotted #7d9af3
+    
 }
